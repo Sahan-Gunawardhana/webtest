@@ -14,18 +14,94 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Testimonials</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>Introduction</h2>
-        <p>This is a test template to try out Git commands. You can modify the content and styles.</p>
+    <section class="hero">
+        <h2>Introducing Our New Product</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec ligula tincidunt congue.</p>
+        <button>Learn More</button>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are a company that values excellence and innovation. Our team works tirelessly to bring the best solutions to our customers.</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Web Development</h3>
+            <p>We create beautiful, responsive websites that cater to your business needs.</p>
+        </div>
+        <div class="service-item">
+            <h3>SEO Optimization</h3>
+            <p>Our SEO services will help your website rank higher and gain more visibility.</p>
+        </div>
+        <div class="service-item">
+            <h3>Consulting</h3>
+            <p>We offer expert consulting to help your business grow and reach its full potential.</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Image Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/200" alt="Gallery Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/200" alt="Gallery Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/200" alt="Gallery Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/200" alt="Gallery Image 4">
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-item">
+            <p>"Amazing service! Our website traffic doubled after using their SEO services!"</p>
+            <p><strong>John Doe</strong>, CEO of Company X</p>
+        </div>
+        <div class="testimonial-item">
+            <p>"The team was very professional, and they helped us launch a beautiful website in no time!"</p>
+            <p><strong>Jane Smith</strong>, Marketing Director</p>
+        </div>
+        <div class="testimonial-item">
+            <p>"I highly recommend their consulting services. They truly helped us grow our business."</p>
+            <p><strong>Mark Johnson</strong>, Founder of Tech Solutions</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     <footer>
         <p>&copy; 2024 Test Template. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
     </footer>
+
 </body>
 </html>
